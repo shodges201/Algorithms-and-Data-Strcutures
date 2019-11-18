@@ -35,6 +35,13 @@ class Stack<E extends Object>{
         return (E) item;
     }
 
+    public E peek(){
+        if(top == 0){
+            throw new IllegalAccessError();
+        }
+        return (E)(array[top-1]);
+    }
+
     public void printAll(){
         String s = "[ ";
         for (int i = 0; i < array.length; i++) {
@@ -50,8 +57,9 @@ class Stack<E extends Object>{
 
     public static void main(String args[]){
         Stack<Integer> s = new Stack(5);
-        // s.add(1);
-        // s.printAll();
+        s.add(1);
+        System.out.println(s.peek());
+        s.printAll();
         // s.add(2);
         // s.printAll();
         // s.add(3);
