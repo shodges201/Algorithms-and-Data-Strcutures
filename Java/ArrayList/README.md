@@ -4,10 +4,10 @@ A simple recreation of Java's built in ArrayList, a resizable list used for stor
 
 ## Methods
  
-* ` add(E item)`
+* ` add(E item)`:
 Adds an item of type E to the end of the list.
 
-* `add(Integer index, E item)`
+* `add(Integer index, E item)`:
 Adds an item of type E into index `index`, and pushes the items after it over by a space.
 
 
