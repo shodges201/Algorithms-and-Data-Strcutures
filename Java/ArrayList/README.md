@@ -4,9 +4,9 @@ A simple recreation of Java's built in ArrayList, a resizable list used for stor
 
 ## Methods
 
-* 
+ 
 ```java 
-add(E item): 
+* add(E item): 
 ```
 
   ### Adds an item of type E to the end of the list.
