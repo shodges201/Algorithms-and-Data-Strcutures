@@ -4,7 +4,8 @@ A simple recreation of Java's built in ArrayList, a resizable list used for stor
 
 ## Methods
 
-* ```java 
+* 
+```java 
 add(E item): 
 ```
 
