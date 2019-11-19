@@ -12,9 +12,9 @@ add(E item)
 Adds an item of type E to the end of the list.
 
 ```java 
-add(E item)
+add(Integer index, E item)
 ```
-Adds an item of type E to the end of the list.
+Adds an item of type E into index `index`, and pushes the items after it over by a space.
 
 
 
