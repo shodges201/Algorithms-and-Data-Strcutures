@@ -1,4 +1,4 @@
-class LinkedList<E> {
+class LinkedList<E>{
     Node head;
 
     public LinkedList() {
